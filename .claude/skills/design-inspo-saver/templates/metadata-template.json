@@ -1,0 +1,9 @@
+{
+  "filename": "{{filename}}.{{ext}}",
+  "category": "{{category}}",
+  "source_url": "{{original_url}}",
+  "saved_date": "{{ISO_8601_timestamp}}",
+  "media_type": "{{image|video|gif|screenshot}}",
+  "tags": ["{{tag1}}", "{{tag2}}", "{{tag3}}"],
+  "notes": "{{user_provided_notes_if_any}}"
+}
