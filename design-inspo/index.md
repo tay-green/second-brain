@@ -6,6 +6,16 @@ A searchable index of all saved design inspiration.
 
 ### 2025-11-05
 
+#### UI Component Design Examples
+**Category:** UI Components
+**Tags:** buttons, chat-interface, progress-card, timeline, ai, minimalist, pills, rounded
+
+Collection of 3 clean, minimalist UI component designs:
+
+1. **[Pill-Shaped Button Variants](ui-components/pill-button-variants.md)** - Three styled button/label variants with shadows and borders
+2. **[Minimal Chat Interface](ui-components/minimal-chat-interface.md)** - Clean AI chat interface with message input and attachment
+3. **[AI Task Progress Card](ui-components/ai-task-progress-card.md)** - Progress tracker with vertical timeline and status indicators
+
 #### Replit AI Agent & Workflow Builder
 **Category:** Layouts
 **Source:** Replit
@@ -37,15 +47,21 @@ Collection of 4 screenshots showcasing Replit's AI Agent and Workflow Builder in
 - [Empty States](layouts/replit-agent-published-apps.md) - `empty-state`
 
 ### UI Components
-- [Chat Interfaces](layouts/replit-agent-workflow-builder.md) - `chat-interface`, `conversational-ui`
-- [Secrets Management](layouts/replit-agent-workflow-builder.md) - `secrets-management`
-- [Console Output](layouts/replit-agent-console.md) - `terminal-ui`
+- [Pill Buttons](ui-components/pill-button-variants.md) - `buttons`, `pills`, `rounded`, `variants`
+- [Chat Interfaces](ui-components/minimal-chat-interface.md) - `chat-interface`, `input-field`, `messaging`, `ai`
+- [Progress Cards](ui-components/ai-task-progress-card.md) - `progress-card`, `timeline`, `task-tracker`, `loading-state`
+- [Replit Chat Interface](layouts/replit-agent-workflow-builder.md) - `conversational-ui`, `secrets-management`
+- [Replit Console](layouts/replit-agent-console.md) - `terminal-ui`, `console-output`
+
+### Minimalist Design
+- [Pill Button Variants](ui-components/pill-button-variants.md) - `minimalist`, `clean`, `light-theme`
+- [Minimal Chat Interface](ui-components/minimal-chat-interface.md) - `minimalist`, `light-theme`
 
 ---
 
 ## Categories
 
-- **[UI Components](ui-components/)** - 0 items
+- **[UI Components](ui-components/)** - 3 items
 - **[Layouts](layouts/)** - 4 items
 - **[Color Palettes](color-palettes/)** - 0 items
 - **[Typography](typography/)** - 0 items
