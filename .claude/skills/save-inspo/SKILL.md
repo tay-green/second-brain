@@ -1,5 +1,5 @@
 ---
-name: design-inspo-saver
+name: save-inspo
 description: >
   Quickly save design inspiration (images, videos, gifs, URLs, screenshots) to your GitHub repo
   with automatic categorization, tagging, and indexing for future retrieval.
@@ -8,7 +8,7 @@ author: Taylor Green
 keywords: [design, inspiration, organization, git, auto-tagging, images, videos]
 ---
 
-# Design Inspo Saver
+# Save Inspo
 
 Automatically save design inspiration to your GitHub repository with intelligent categorization and tagging. This skill helps you quickly capture and organize visual inspiration for later reference or integration into a frontend app.
 
