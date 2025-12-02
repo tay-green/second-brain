@@ -1,8 +1,19 @@
 # Second Brain 🧠
 
-A personal knowledge management system combining GTD (Getting Things Done) methodology with design inspiration resources and a Next.js web interface.
+A comprehensive personal knowledge repository—literally a digital extension of my brain. This is where I capture, organize, and retrieve everything: design inspiration, acquired knowledge, articles, GTD tasks, and custom automation workflows.
+
+**Think of it as:** A searchable, organized dump of everything in my head that I want to reference, build upon, or never forget.
 
 ## 📁 Structure
+
+### `/.claude/skills/`
+Custom Claude Skills for automation and workflows:
+
+- **save-inspo** - Automatically save design inspiration (images, videos, URLs, screenshots) to the repo with intelligent categorization, tagging, and GitHub sync
+- **create-skill** - Meta-skill that generates new Claude Skills from plain-language descriptions
+- **github-pr-creator** - Auto-generate GitHub PR descriptions by analyzing git history and changes
+
+Each skill includes comprehensive instructions, templates, validation scripts, and examples.
 
 ### `/gtd/`
 Getting Things Done (GTD) workflow management system:
@@ -30,6 +41,17 @@ Curated design inspiration and reference library:
 ### `/app/`
 Next.js 14 application (App Router) for potential web interface.
 
+## 🧑‍💻 What Goes Here?
+
+Anything and everything:
+- 🎨 **Design inspiration** I find on the web (layouts, UI components, interactions)
+- 📝 **Notes and knowledge** I acquire (articles, learnings, documentation)
+- ✅ **Tasks and projects** (GTD workflow for managing my life)
+- 🤖 **Automation workflows** (Claude Skills to streamline repetitive tasks)
+- 📊 **Ideas and concepts** I want to remember and build upon
+
+If it's worth keeping, it goes here.
+
 ## 🚀 Getting Started
 
 ### For GTD Workflow
@@ -43,6 +65,18 @@ Next.js 14 application (App Router) for potential web interface.
 ### For Design Inspiration
 
 Browse `/design-inspo/` folders to find reference materials organized by category. Each item includes screenshots and markdown notes.
+
+### For Claude Skills
+
+Run skills directly through Claude by referencing them:
+```
+Save this to my inspo: https://dribbble.com/shots/example
+```
+
+Or create new skills:
+```
+Create a skill that [description]
+```
 
 ### For Web Interface (Optional)
 
@@ -72,11 +106,18 @@ Tasks in GTD files follow this format:
 
 ## 🔄 Workflow
 
-1. **Capture** → Everything goes into INBOX.md
+1. **Capture** → Everything goes into INBOX.md or gets saved via skills
 2. **Clarify** → Process inbox items daily
 3. **Organize** → Move to NEXT, SOMEDAY, WAITING, or project files
 4. **Reflect** → Weekly/monthly/quarterly reviews
 5. **Engage** → Work from NEXT.md based on context and priority
+6. **Reference** → Search design-inspo, notes, and knowledge as needed
+
+## 🧠 Philosophy
+
+Your brain is for having ideas, not storing them. This repository offloads the burden of remembering everything so I can focus on creating, connecting ideas, and taking action.
+
+**It's a living system** that grows with me—new skills, new knowledge, new projects, all interconnected and retrievable.
 
 ## 📄 License
 
